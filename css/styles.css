@@ -1,0 +1,397 @@
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,p {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+ul, ol {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* header */
+
+.font {
+font-family: 'Roboto', sans-serif;
+}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+
+
+.logo {
+    font-family: 'Raleway',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+        margin-right: 93px;
+}
+
+.logo-accent {
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        /* identical to box height */
+    
+        letter-spacing: 0.03em;
+    
+        color: #000000;
+}
+
+.menu-link {
+    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.contact-phone-number {
+    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+        
+}
+
+.contact-mail-address {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+    
+}
+
+
+
+.menu-address {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+ 
+}
+
+.menu-address :not(:last-child) {
+    margin-right: 50px;
+}
+
+.contact-mail-address:hover,
+.contact-mail-address:focus {
+color: #2196F3;
+}
+
+/* hero */
+
+.hero-backgroung-color {
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
+   
+}
+
+.model-btn {
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 188% */
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background: #2196F3;
+    
+        color: #FFFFFF;
+        border-radius: 4px;
+        border: 1px solid #2196F3;
+        cursor: pointer;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+       
+}
+
+.model-btn:hover,
+.model-btn:focus {
+background-color: #188CE8;
+color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+
+.hero-title {
+    
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        /* or 136% */
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+/* section-one */
+
+.advantages-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advantages-title {
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+        margin-bottom: 10px;
+        
+       
+}
+
+.advantages-text {
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+.advantages-main-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+/* section-two */
+
+.duties-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+
+.section-main-title {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+    color: #212121;
+}
+
+.duties-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section-three */
+
+.team-section {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+   
+}
+
+.team-title {
+    
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+.job-title {
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        /* identical to box height */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+.address {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+
+/* портфолио */
+
+.poster-title {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+
+.description-poster {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.model-btn-portfolio {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+        
+            /* shadow-middle */
+        
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+}
+
+/* html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+} */
+
