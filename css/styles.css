@@ -26,7 +26,7 @@ button {
 }
 
 .container {
-    width: 1200px;
+    width: 1230px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -406,6 +406,11 @@ border-radius: 4px;
 .items-menu-two {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 370px;
+    
+    /* min-width: 370px;
+    min-height: 404px; */
+    
     
     
 }
@@ -416,11 +421,12 @@ border-radius: 4px;
 
 .items-menu-two-flex {
     margin-right: 30px;
-    width: 370px;
-    height: 404px;
+    /* width: 370px;
+    height: 404px;  */
+    flex-basis: auto;
     margin-bottom: 30px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+
    
 }
 
@@ -536,7 +542,8 @@ border-radius: 4px;
 }
 
 .img-portfolio {
-    margin-bottom: 20px;
+    flex-basis: auto;
+    /* margin-bottom: 20px; */
 }
 
 .title-item-portfolio {
@@ -547,10 +554,13 @@ border-radius: 4px;
 }
 
 .title-description {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 1px solid #EEEEEE;
+    
+   
 }
 
 
