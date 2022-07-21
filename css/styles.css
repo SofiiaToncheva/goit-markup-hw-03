@@ -340,6 +340,17 @@ border-radius: 4px;
     justify-content: space-between;
 }
 
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-list-shadow {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background: #FFFFFF;
+}
+
 .team-img {
     margin-bottom: 30px;
 }
@@ -364,6 +375,7 @@ border-radius: 4px;
 
 .header-portfolio {
     margin-bottom: 0;
+    border: 1px solid #ECECEC;
 }
 
 .items-menu {
@@ -386,7 +398,7 @@ border-radius: 4px;
 .section-portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
-    width: 1200px;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -405,7 +417,11 @@ border-radius: 4px;
 .items-menu-two-flex {
     margin-right: 30px;
     width: 370px;
+    height: 404px;
     margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+   
 }
 
 .poster-title {
@@ -423,15 +439,18 @@ border-radius: 4px;
 
 .description-poster {
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    /* identical to box height, or 188% */
-
-    letter-spacing: 0.03em;
-
-    color: #757575;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        /* identical to box height, or 188% */
+    
+        letter-spacing: 0.03em;
+        margin-bottom: 20px;
+    
+        color: #757575;
+        
 }
 
 .model-btn-portfolio {
@@ -453,6 +472,44 @@ border-radius: 4px;
             border-color: #F5F4FA;
 }
 
+.button-portfolio-first {
+    width: 73px;
+    height: 38px;
+    background: #2196F3;
+    color: #FFFFFF;
+    
+     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+     border-radius: 4px;
+}
+
+.button-portfolio-second {
+    width: 128px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-portfolio-third {
+    width: 145px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-portfolio-forth {
+    width: 103px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-portfolio-fifth {
+    width: 130px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
 .model-btn-portfolio:hover,
 .model-btn-portfolio:focus {
     background-color: #2196F3;
@@ -467,6 +524,8 @@ border-radius: 4px;
 
 .color {
     background-color: #2F303A;
+    padding-top: 60px;
+     padding-bottom: 60px;
 }
 
 .size-footer {
@@ -482,7 +541,18 @@ border-radius: 4px;
 
 .title-item-portfolio {
     margin-bottom: 4px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    
 }
+
+.title-description {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 .logo-accent-footer {
     color: #FFFFFF;
@@ -496,8 +566,7 @@ border-radius: 4px;
 }
 
 .container-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+
     width: 1200px;
     height: 252px;
 
