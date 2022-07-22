@@ -26,7 +26,7 @@ button {
 }
 
 .container {
-    width: 1230px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -108,13 +108,16 @@ font-family: 'Roboto', sans-serif;
 
 .contact-phone-number {
     
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-    
-        color: #757575;
+        font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            /* or 171% */
+        
+            letter-spacing: 0.03em;
+        
+            color: rgba(255, 255, 255, 0.6);
         
 }
 
@@ -453,7 +456,7 @@ border-radius: 4px;
         /* identical to box height, or 188% */
     
         letter-spacing: 0.03em;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     
         color: #757575;
         
@@ -524,10 +527,6 @@ border-radius: 4px;
 
 
 
-
-
-
-
 .color {
     background-color: #2F303A;
     padding-top: 60px;
@@ -578,7 +577,7 @@ border-radius: 4px;
 .container-footer {
 
     width: 1200px;
-    height: 252px;
+    /* height: 252px; */
 
 }
 
