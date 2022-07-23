@@ -421,25 +421,25 @@ border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
     /* flex-basis: 370px; */
-    gap: 30px;
+    gap: 30px 30px;
     
     /* min-width: 370px;
     min-height: 404px; */
     
-    
-    
 }
 
 .items-menu-two-flex:nth-child(3n) {
-    margin-right: 0;
-}
+   margin-right: 0;
+} 
+
+
 
 .items-menu-two-flex {
-    margin-right: 30px;
+    /* margin-right: 30px; */
     /* width: 370px;
     height: 404px;  */
     flex-basis: auto;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     background: #FFFFFF;
 
    
