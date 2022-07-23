@@ -121,6 +121,17 @@ font-family: 'Roboto', sans-serif;
         
 }
 
+.contact-phone-number-header {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+
 .contact-mail-address {
 
     font-style: normal;
@@ -355,7 +366,7 @@ border-radius: 4px;
 }
 
 .team-img {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 /* footer */
@@ -409,7 +420,8 @@ border-radius: 4px;
 .items-menu-two {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 370px;
+    /* flex-basis: 370px; */
+    gap: 30px;
     
     /* min-width: 370px;
     min-height: 404px; */
