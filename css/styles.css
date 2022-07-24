@@ -406,6 +406,7 @@ border-radius: 4px;
 .list-items-menu {
     margin-left: 0;
     margin-right: 0;
+   
 }
 
 
@@ -420,27 +421,25 @@ border-radius: 4px;
 .items-menu-two {
     display: flex;
     flex-wrap: wrap;
-    /* flex-basis: 370px; */
-    gap: 30px 30px;
+    gap: 30px;
     
-    min-width: 370px;
-    min-height: 404px;
+
     
 }
 
 .items-menu-two-flex:nth-child(3n) {
    margin-right: 0;
+    
 } 
 
 
 
 .items-menu-two-flex {
     /* margin-right: 30px; */
-    /* width: 370px;
-    height: 404px;  */
-    flex-basis: auto;
+    
     /* margin-bottom: 30px; */
     background: #FFFFFF;
+    flex-basis: calc((100% - 60px) / 3);
 
    
 }
@@ -563,7 +562,7 @@ border-radius: 4px;
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 2;
         /* identical to box height, or 200% */
     
         letter-spacing: 0.06em;
