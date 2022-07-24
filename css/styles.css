@@ -423,8 +423,8 @@ border-radius: 4px;
     /* flex-basis: 370px; */
     gap: 30px 30px;
     
-    /* min-width: 370px;
-    min-height: 404px; */
+    min-width: 370px;
+    min-height: 404px;
     
 }
 
@@ -447,15 +447,16 @@ border-radius: 4px;
 
 .poster-title {
 
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    /* identical to box height, or 200% */
-
-    letter-spacing: 0.06em;
-
-    color: #212121;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+    
+        color: #212121;
 }
 
 .description-poster {
@@ -558,15 +559,23 @@ border-radius: 4px;
 }
 
 .title-item-portfolio {
-    margin-bottom: 4px;
-    letter-spacing: 0.06em;
-    color: #212121;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        /* identical to box height, or 200% */
+    
+        letter-spacing: 0.06em;
+        margin-bottom: 4px;
+    
+        color: #212121;
     
 }
 
 .title-description {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid #EEEEEE;
